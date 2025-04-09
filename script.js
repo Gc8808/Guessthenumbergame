@@ -19,5 +19,11 @@ function selectedEasy() {
     document.getElementById('hardBtn').classList.add('d-none');
     document.getElementById('impossibleBtn').classList.add('d-none');
     document.getElementById('inputZone').classList.remove('d-none');
+    document.getElementById('submitGuessBtn').classList.remove('d-none');
+  document.getElementById('difficultySelection').classList.remove('d-none')
+  document.getElementById('difficultySelection').classList.add('easy')
+  document.getElementById('textBox').innerHTML('Easy mode...')
+  startGameMode()
+return;
 
 }
